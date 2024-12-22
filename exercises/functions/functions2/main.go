@@ -1,16 +1,17 @@
 // functions2
 // Make me compile!
 
-// I AM NOT DONE
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	callMe(10)
 }
 
-func callMe(num) {
+func callMe(num int) {
 	for n := 0; n <= num; n++ {
 		fmt.Printf("Num is %d\n", n)
 	}
